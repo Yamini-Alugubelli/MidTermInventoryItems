@@ -8,6 +8,8 @@ public class InventoryItem
     public double Price { get; set; }
     public int QuantityInStock { get; set; }
 
+
+
     // Constructor
     public InventoryItem(string itemName, int itemId, double price, int quantityInStock)
     {
